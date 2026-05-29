@@ -6,17 +6,14 @@
 
 **Full Stack Developer | MERN Stack | React.js | Node.js**
 
-[![Live Demo](https://img.shields.io/badge/Live%20Demo-Visit%20Site-20B2A6?style=for-the-badge&logo=vercel&logoColor=white)](https://your-portfolio-url.vercel.app)
-[![LinkedIn](https://img.shields.io/badge/LinkedIn-Connect-0077B5?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/vaibhav-baishkhiyar108/)
-[![GitHub](https://img.shields.io/badge/GitHub-Follow-181717?style=for-the-badge&logo=github&logoColor=white)](https://github.com/vaibhav1-prog)
+Live Demo : https://personal-portfolio-zeta-wheat-65.vercel.app
+GitHub : https://github.com/vaibhav1-prog/Personal-Portfolio
+LinkedIn : https://www.linkedin.com/in/vaibhav-baishkhiyar108/
 
-</div>
 
 ---
 
 ## Preview
-
-Add a screenshot after deployment:
 
 ```md
 ![Portfolio Preview](public/projects/preview.png)

@@ -6,16 +6,19 @@
 
 **Full Stack Developer | MERN Stack | React.js | Node.js**
 
-Live Demo : https://personal-portfolio-zeta-wheat-65.vercel.app
-GitHub : https://github.com/vaibhav1-prog/Personal-Portfolio
-LinkedIn : https://www.linkedin.com/in/vaibhav-baishkhiyar108/
+[Live Demo](https://personal-portfolio-zeta-wheat-65.vercel.app) |
+[GitHub](https://github.com/vaibhav1-prog/Personal-Portfolio) |
+[LinkedIn](https://www.linkedin.com/in/vaibhav-baishkhiyar108/)
 
+</div>
 
 ---
 
 ## Preview
 
-```md
+Add a screenshot after deployment:
+
+```markdown
 ![Portfolio Preview](public/projects/preview.png)
 ```
 
@@ -167,10 +170,9 @@ This project is ready to deploy on Vercel.
 1. Push the project to GitHub.
 2. Open [Vercel](https://vercel.com/) and import the repository.
 3. Add the same EmailJS variables from `.env` in the Vercel environment settings.
-4. Use the default Vite settings:
-   - Build command: `npm run build`
-   - Output directory: `dist`
-5. Deploy the project.
+4. Use `npm run build` as the build command.
+5. Use `dist` as the output directory.
+6. Deploy the project.
 
 ---
 

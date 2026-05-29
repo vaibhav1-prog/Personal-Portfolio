@@ -2,7 +2,7 @@
 
 <img src="public/vb-logo.svg" width="80" height="80" alt="VB Logo" />
 
-# Vaibhav Baishkhiyar — Personal Portfolio
+# Vaibhav Baishkhiyar - Personal Portfolio
 
 **Full Stack Developer | MERN Stack | React.js | Node.js**
 
@@ -14,166 +14,186 @@
 
 ---
 
-## 📸 Preview
+## Preview
 
-> Add a screenshot of your portfolio here after deployment:
-> `![Portfolio Preview](public/projects/preview.png)`
+Add a screenshot after deployment:
 
----
-
-## ✨ Features
-
-- 🎨 **Modern UI** — Dark theme with glass morphism, teal accents, and smooth animations
-- ⌨️ **Typing Animation** — Dynamic role text cycling on the hero section
-- 📱 **Fully Responsive** — Mobile-first design, works on all screen sizes
-- 🔤 **Big Name Hero** — Large bold name display inspired by modern portfolio trends
-- 💼 **Projects Section** — TeamSync, CineBook, HireIQ with live links and GitHub
-- 🧠 **Skills Section** — Animated skill bars across Frontend, Backend, Database & Tools
-- 🎓 **About + Education** — Stats grid (10+ projects, MERN, B.Tech, 2026) and GGSIPU card
-- 🏆 **Achievements** — Academic, DSA, hackathons, and certifications carousel
-- 📬 **Contact Form** — EmailJS powered with Name, Email, Subject, and Message fields
-- 🪙 **VB Favicon** — Custom purple circle logo in the browser tab
-- ⬇️ **CV Download** — Resume download button in the navbar
+```md
+![Portfolio Preview](public/projects/preview.png)
+```
 
 ---
 
-## 🛠️ Tech Stack
+## Features
+
+- Modern dark UI with glassmorphism, teal accents, and smooth animations
+- Typing animation in the hero section
+- Fully responsive layout for mobile, tablet, and desktop
+- Project showcase for TeamSync, CineBook, and HireIQ
+- Skills section with animated skill bars
+- About and education section with stats
+- Achievements and certifications carousel
+- EmailJS-powered contact form
+- Custom VB logo and favicon
+- Resume download button
+
+---
+
+## Tech Stack
 
 | Category | Technologies |
-|---|---|
-| **Frontend** | React.js 19, Vite, Tailwind CSS v4 |
-| **Icons** | Lucide React |
-| **Email** | EmailJS |
-| **Deployment** | Vercel |
-| **Package Manager** | npm |
+| --- | --- |
+| Frontend | React.js 19, Vite, Tailwind CSS v4 |
+| Icons | Lucide React |
+| Email | EmailJS |
+| Deployment | Vercel |
+| Package Manager | npm |
 
 ---
 
-## 🚀 Getting Started
+## Getting Started
 
 ### Prerequisites
 
-Make sure you have the following installed:
-- [Node.js](https://nodejs.org/) (v18 or higher)
+Install these before running the project:
+
+- [Node.js](https://nodejs.org/) v18 or higher
 - [Git](https://git-scm.com/)
+- npm, which comes with Node.js
 
 ### 1. Clone the repository
 
 ```bash
-git clone https://github.com/vaibhav1-prog/your-portfolio-repo.git
-cd your-portfolio-repo
+git clone https://github.com/vaibhav1-prog/Personal-Portfolio.git
 ```
 
-### 2. Install dependencies
+### 2. Go into the project folder
+
+```bash
+cd Personal-Portfolio
+```
+
+### 3. Install dependencies
 
 ```bash
 npm install
 ```
 
-### 3. Set up environment variables
+### 4. Set up environment variables
 
-Create a `.env` file in the root of the project:
+Create a local `.env` file from the example file:
 
 ```bash
 cp .env.example .env
 ```
 
-Then fill in your EmailJS credentials:
+On Windows PowerShell, you can use:
 
-```env
-VITE_EMAILJS_SERVICE_ID=your_service_id
-VITE_EMAILJS_TEMPLATE_ID=your_template_id
-VITE_EMAILJS_PUBLIC_KEY=your_public_key
+```powershell
+Copy-Item .env.example .env
 ```
 
-> Get these from [emailjs.com](https://www.emailjs.com/) → Free account → Email Services + Templates
+Then update `.env` with your EmailJS credentials:
 
-### 4. Run locally
+```env
+VITE_EMAILJS_SERVICE_ID=your_service_id_here
+VITE_EMAILJS_TEMPLATE_ID=your_template_id_here
+VITE_EMAILJS_PUBLIC_KEY=your_public_key_here
+```
+
+You can get these values from your [EmailJS](https://www.emailjs.com/) dashboard.
+
+### 5. Run the project locally
 
 ```bash
 npm run dev
 ```
 
-Open [http://localhost:5173](http://localhost:5173) in your browser.
+Open the local URL shown in the terminal, usually:
 
-### 5. Build for production
+```text
+http://localhost:5173
+```
+
+### 6. Build for production
 
 ```bash
 npm run build
 ```
 
----
+### 7. Preview the production build
 
-## 📁 Project Structure
-
-```
-vaibhav-portfolio/
-├── public/
-│   └── projects/
-│       
-├── src/
-│   ├── components/
-│   ├── layout/
-│   ├── sections/
-│   │   ├── Hero.jsx             # Big name + typing animation
-│   │   ├── About.jsx            # Bio + education + stats grid
-│   │   ├── Projects.jsx         # TeamSync, CineBook, HireIQ
-│   │   ├── Skills.jsx           # Skill bars by category
-│   │   ├── Testimonials.jsx     # Achievements carousel
-│   │   └── Contact.jsx          # EmailJS form with subject field
-│   ├── App.jsx
-│   ├── main.jsx
-│   └── index.css
-├── .env
-├── index.html
-├── package.json
-└── vite.config.js
-```
-
-# Initialize git (if not done already)
-git init
-
-# Add all files
-git add .
-
-# First commit
-git commit -m "🚀 Initial commit — Personal portfolio"
-
-# Create repo on github.com, then:
-git remote add origin https://github.com/vaibhav1-prog/your-repo-name.git
-
-# Push to GitHub
-git push -u origin main
-```
-
-> ⚠️ Make sure `.env` is in your `.gitignore` so your EmailJS keys aren't exposed publicly.
-
-### Verify .gitignore includes:
-
-```
-.env
-node_modules/
-dist/
+```bash
+npm run preview
 ```
 
 ---
 
-## 🔧 Customization Guide
+## Project Structure
 
-| What to change | Where |
-|---|---|
-| Name, bio, description | `src/sections/Hero.jsx`, `src/sections/About.jsx` |
-| Projects (title, links, tags) | `src/sections/Projects.jsx` |
-| Skills & proficiency % | `src/sections/Skills.jsx` |
-| Contact info (email, phone) | `src/sections/Contact.jsx` |
-| Social links (GitHub, LinkedIn) | `src/sections/Hero.jsx`, `src/layout/Footer.jsx` |
+```text
+vaibhav-portfolio-final/
+|-- public/
+|   |-- projects/
+|   |-- Vaibhav_Baishkhiyar_Resume.pdf
+|   |-- hero-bg.jpg
+|   |-- profile-photo.jpg
+|   |-- vb-logo.svg
+|   `-- vite.svg
+|-- src/
+|   |-- components/
+|   |-- layout/
+|   |-- sections/
+|   |   |-- About.jsx
+|   |   |-- Contact.jsx
+|   |   |-- Hero.jsx
+|   |   |-- Projects.jsx
+|   |   |-- Skills.jsx
+|   |   `-- Testimonials.jsx
+|   |-- App.jsx
+|   |-- index.css
+|   `-- main.jsx
+|-- .env.example
+|-- .gitignore
+|-- eslint.config.js
+|-- index.html
+|-- package.json
+`-- vite.config.js
+```
+
+---
+
+## Deployment
+
+This project is ready to deploy on Vercel.
+
+1. Push the project to GitHub.
+2. Open [Vercel](https://vercel.com/) and import the repository.
+3. Add the same EmailJS variables from `.env` in the Vercel environment settings.
+4. Use the default Vite settings:
+   - Build command: `npm run build`
+   - Output directory: `dist`
+5. Deploy the project.
+
+---
+
+## Customization
+
+| What to change | File |
+| --- | --- |
+| Name, bio, and hero text | `src/sections/Hero.jsx` |
+| About content and education | `src/sections/About.jsx` |
+| Projects, links, and tags | `src/sections/Projects.jsx` |
+| Skills and proficiency values | `src/sections/Skills.jsx` |
+| Contact details | `src/sections/Contact.jsx` |
+| Social links | `src/sections/Hero.jsx`, `src/layout/Footer.jsx` |
 | Profile photo | `public/profile-photo.jpg` |
 | Resume PDF | `public/Vaibhav_Baishkhiyar_Resume.pdf` |
-| Project screenshots | `public/projects/*.png` |
+| Project screenshots | `public/projects/` |
 
 ---
 
-## 📄 License
+## License
 
 This project is open source and available under the [MIT License](LICENSE).
 
@@ -181,8 +201,8 @@ This project is open source and available under the [MIT License](LICENSE).
 
 <div align="center">
 
-Built with ❤️ by **Vaibhav Baishkhiyar** 
+Built by **Vaibhav Baishkhiyar**
 
-⭐ Star this repo if you found it helpful!
+Star this repository if you found it helpful.
 
 </div>

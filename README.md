@@ -14,16 +14,6 @@
 
 ---
 
-## Preview
-
-Add a screenshot after deployment:
-
-```markdown
-![Portfolio Preview](public/projects/preview.png)
-```
-
----
-
 ## Features
 
 - Modern dark UI with glassmorphism, teal accents, and smooth animations
